@@ -777,7 +777,7 @@ public typealias SearchTextFieldItemHandler = (_ filteredResults: [SearchTextFie
 ////////////////////////////////////////////////////////////////////////
 // Suggestions List Direction
 
-enum Direction {
+public enum Direction {
     case down
     case up
 }
