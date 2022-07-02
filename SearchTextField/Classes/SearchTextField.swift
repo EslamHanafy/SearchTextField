@@ -143,7 +143,7 @@ open class SearchTextField: UITextField {
     
     fileprivate var tableView: UITableView?
     fileprivate var shadowView: UIView?
-    fileprivate var direction: Direction = .down
+    open var direction: Direction = .up
     fileprivate var fontConversionRate: CGFloat = 0.7
     fileprivate var keyboardFrame: CGRect?
     fileprivate var timer: Timer? = nil
